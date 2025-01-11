@@ -11,8 +11,10 @@ class EchoClient:
         if response.status_code == 200:
             plugins_list = response["result"]
             file_list = []
-            for plugin_id in plugins_list:
+
+            free_plugins = plugins_list["free-plugins"]
+            for plugin_id in free_plugins:
                 file_url = f"https://raw.githubusercontent.com/ishikki-akabane/EchoCore/main/{plugin_id}"
                 file_list.append(file_url)
 
-            return file_url
+            return file_list
