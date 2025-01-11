@@ -1,0 +1,7 @@
+__version__ = "0.0.1"
+
+from echocore.client import EchoClient
+
+__all__ = [
+    "EchoClient",
+]
