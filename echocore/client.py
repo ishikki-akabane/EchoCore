@@ -4,6 +4,7 @@ import requests
 class EchoClient:
     def __init__(self, token):
         self.token = token
+        self.plugin_url = "https://raw.githubusercontent.com/ishikki-akabane/EchoCore/main/plugins"
 
 
     def setup_plugins(self):
@@ -14,7 +15,7 @@ class EchoClient:
 
             free_plugins = plugins_list["free-plugins"]
             for plugin_id in free_plugins:
-                file_url = f"https://raw.githubusercontent.com/ishikki-akabane/EchoCore/main/{plugin_id}"
+                file_url = f"{self.plugin_url}/{plugin_id}"
                 file_list.append(file_url)
 
             return file_list
