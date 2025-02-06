@@ -8,7 +8,7 @@ class EchoClient:
 
 
     def setup_plugins(self):
-        response = requests.get(f"https://testing.vercel.app/download={self.token}")
+        response = requests.get(f"https://testing.vercel.app/download?download={self.token}")
         if response.status_code == 200:
             plugins_list = response["result"]
             file_list = []
