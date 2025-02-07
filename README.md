@@ -13,7 +13,9 @@ EchoCore is a platform where developers can post, share, and use ready-to-use pl
 You can install EchoCore via pip:
 
 ```sh
-pip install EchoCore```
+pip install EchoCore
+```
 Alternatively, install the latest development version:
 ```sh
-pip install git+https://github.com/ishikki-akabane/EchoCore.git```
+pip install git+https://github.com/ishikki-akabane/EchoCore.git
+```
