@@ -1,6 +1,6 @@
 
 import re
-from setuptools import setup
+from setuptools import setup, find_packages
 
 with open("requirements.txt", encoding="utf-8") as r:
     requires = [i.strip() for i in r]
@@ -55,6 +55,6 @@ setup(
         "Documentation": "https://echocore.live",
     },
     include_package_data=True,
-    py_modules=["echocore"],
+    packages=find_packages(exclude=["plugin*"]),
     install_requires=requires
 )
