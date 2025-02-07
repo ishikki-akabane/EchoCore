@@ -28,7 +28,7 @@ Need help? Join our community:
 
 ## 📜 License
 EchoCore is licensed under the MIT License.
-See [LICENSE](https://chatgpt.com/c/LICENSE) for more details.
+See [LICENSE](https://github.com/ishikki-akabane/EchoCore/blob/main/LICENSE) for more details.
 
 ## 🌟 Support the Project
 If you find this project useful, consider starring ⭐ it on GitHub!
