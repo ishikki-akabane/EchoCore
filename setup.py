@@ -55,6 +55,6 @@ setup(
         "Documentation": "https://echocore.live",
     },
     include_package_data=True,
-    packages=["echocore"],
+    py_modules=["echocore"],
     install_requires=requires
 )
