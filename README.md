@@ -19,3 +19,16 @@ Alternatively, install the latest development version:
 ```sh
 pip install git+https://github.com/ishikki-akabane/EchoCore.git
 ```
+
+## Issues & Support
+Found a bug? Report it at:
+🔗 [GitHub Issues](https://github.com/ishikki-akabane/EchoCore/issues)
+Need help? Join our community:
+🔗 [Telegram](https://t.me/EchoCore)
+
+## 📜 License
+EchoCore is licensed under the MIT License.
+See [LICENSE](https://chatgpt.com/c/LICENSE) for more details.
+
+## 🌟 Support the Project
+If you find this project useful, consider starring ⭐ it on GitHub!
